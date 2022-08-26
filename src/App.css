@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  /* background-color: #61dafb; */
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container_input{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-color: #282c34;
+  border-radius: 20px;
+}
+.register_input{
+  width: auto;
+  height: 30px;
+  padding-top: 5px;
+  
+  
+}
+.button_cadastrar{
+  height: 30px;
+  width: 80px;
+  
+}
+.titulo{
+  width: 440px;
+  display: flex ;
+  background-color: #f0f1f3;
+  height: 30px;
+  font-size: 20px;
+  color: rgb(37, 34, 34);
+    
+  border-radius: 5px;
+
+  margin-left: 20px;
+}
+.nome{
+  margin-right: 160px;
+}
